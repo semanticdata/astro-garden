@@ -9,6 +9,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Forgetful Notes',
+			description: 'A personal knowledge management system built with Astro and BrainDB.',
 			logo: {
 				src: './src/assets/logo.svg',
 			},
