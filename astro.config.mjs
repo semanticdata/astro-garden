@@ -5,6 +5,7 @@ import { brainDbAstro } from "@braindb/astro";
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://astro-garden.vercel.app/',
 	integrations: [
 		starlight({
 			title: 'Forgetful Notes',
