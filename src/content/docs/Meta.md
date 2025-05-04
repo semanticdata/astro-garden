@@ -1,7 +1,7 @@
 ---
 title: Meta
 description: How the site was made.
-updated: 2024-02-08
+lastUpdated: 2024-02-08
 compartir: true
 tags: [meta]
 ---
