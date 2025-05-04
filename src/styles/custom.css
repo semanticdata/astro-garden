@@ -1,5 +1,7 @@
 :root,
 ::backdrop {
+    --sl-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
     --sl-color-bg-nav: var(--sl-color-bg);
     --sl-color-bg-sidebar: var(--sl-color-bg);
     --sl-color-hairline-shade: var(--sl-color-gray-6);

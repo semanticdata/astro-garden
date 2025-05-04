@@ -18,6 +18,7 @@ export default defineConfig({
 			},
 			customCss: [
 				'./src/styles/custom.css',
+				'@fontsource-variable/inter/standard.css',
 			],
 			lastUpdated: true,
 		}),
