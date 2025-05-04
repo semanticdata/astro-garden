@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.34.2",
+    "@braindb/astro": "^0.1.1",
+    "@braindb/core": "^0.0.17",
     "astro": "^5.6.1",
     "sharp": "^0.32.5"
   }
