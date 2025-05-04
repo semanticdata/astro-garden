@@ -1,0 +1,5 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="268" height="255" class="atom">
+  <circle class="ring" cx="134" cy="127.6" r="115" fill="none" stroke="#fff" stroke-width="15" />
+  <circle class="nucleus" fill="#ababab" cx="134" cy="127.6" r="66.3"/>
+  <circle class="electron" fill="#ababab" cx="224" cy="57" r="28"/>
+</svg>

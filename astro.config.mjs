@@ -8,7 +8,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Forgetful Notes',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			logo: {
+				src: './src/assets/logo.svg',
+			},
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/semanticdata/astro-garden' }],
 			components: {
 				Sidebar: "./src/components/Sidebar.astro",
 			},
