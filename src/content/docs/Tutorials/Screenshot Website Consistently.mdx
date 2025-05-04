@@ -13,8 +13,6 @@ Taking a precise screenshot of an HTML element in your browser's Developer Tools
 
 ## Overview
 
-<Steps>
-
 1. Press `Ctrl + Shift + I` or `F12` to open the browser developer tools.
 2. Press `Ctrl + Shift + M` to toggle the device toolbar.
 3. Click the dots on top right and select "Add device pixel ratio" or DPR.
@@ -25,49 +23,59 @@ Taking a precise screenshot of an HTML element in your browser's Developer Tools
 8. Type "node" to show the "Capture node screenshot" and press `Enter`.
 9. Enjoy your screenshot.
 
-</Steps>
-
 ## Step-by-Step Tutorial
 
-### 1. Open Developer Tools
+<Steps>
 
-Press `Ctrl + Shift + I` or `F12` to open the browser developer tools. This can look different depending on what browser you use.
+1. ### Open Developer Tools
 
-Here's what it looks like in Microsoft Edge:
+    Press `Ctrl + Shift + I` or `F12` to open the browser developer tools. This can look different depending on what browser you use.
 
-![dev-tools-edge](https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1719509556.png)
+    Here's what it looks like in Microsoft Edge:
 
-### 2. Toggle Device Toolbar
+    ![dev-tools-edge](https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1719509556.png)
 
-Press `Ctrl + Shift + M` to toggle the Device Toolbar, allowing you to simulate different devices.
 
-<!--![device-toolbar](https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1719509661.png)-->
-![device-toolbar2](https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1719509820.png)
+2. ### Toggle Device Toolbar
 
-### 3. Add Device Pixel Ratio (DPR)
+    Press `Ctrl + Shift + M` to toggle the Device Toolbar, allowing you to simulate different devices.
 
-Click the three vertical dots in the top right corner of the Developer Tools pane. From the dropdown menu, select **"Add device pixel ratio"** (or **DPR**).
+    ![device-toolbar](https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1719509661.png)
+    ![device-toolbar2](https://bear-images.sfo2.cdn.digitaloceanspaces.com/database-1719509820.png)
 
-### 4. Set Device Pixel Ratio (DPR)
 
-In the Device Toolbar, set the DPR to **2.0** if it is not already set. This ensures the screenshot captures with the desired pixel density.
+3. ### Add Device Pixel Ratio (DPR)
 
-### 5. Set Resolution
+    Click the three vertical dots in the top right corner of the Developer Tools pane. From the dropdown menu, select **"Add device pixel ratio"** (or **DPR**).
 
-In the Device Toolbar, set the desired resolution. This configures the viewport size for your screenshot.
 
-### 6. Select HTML Element
+4. ### Set Device Pixel Ratio (DPR)
 
-In the Elements panel, navigate to and select the HTML element you want to capture. This highlights the specific node for the screenshot. Usually the `<body>` element will work, but it depends on the site you are screenshotting.
+    In the Device Toolbar, set the DPR to **2.0** if it is not already set. This ensures the screenshot captures with the desired pixel density.
 
-### 7. Open Command Menu
 
-Press `Ctrl + Shift + P` (Windows/Linux) or `Cmd + Shift + P` (Mac) to open the Command Menu in Developer Tools.
+5. ### Set Resolution
 
-### 8. Capture Node Screenshot
+    In the Device Toolbar, set the desired resolution. This configures the viewport size for your screenshot.
 
-In the Command Menu, type "node" to filter commands and select **"Capture node screenshot"** from the list. Press `Enter`.
 
-### 9. Enjoy Your Screenshot
+6. ### Select HTML Element
 
-The screenshot of the selected HTML element with the specified DPR and resolution is now saved. You can find it in your default download location.
+    In the Elements panel, navigate to and select the HTML element you want to capture. This highlights the specific node for the screenshot. Usually the `<body>` element will work, but it depends on the site you are screenshotting.
+
+
+7. ### Open Command Menu
+
+    Press `Ctrl + Shift + P` (Windows/Linux) or `Cmd + Shift + P` (Mac) to open the Command Menu in Developer Tools.
+
+
+8. ### Capture Node Screenshot
+
+    In the Command Menu, type "node" to filter commands and select **"Capture node screenshot"** from the list. Press `Enter`.
+
+
+9. ### Enjoy Your Screenshot
+
+    The screenshot of the selected HTML element with the specified DPR and resolution is now saved. You can find it in your default download location.
+
+</Steps>
