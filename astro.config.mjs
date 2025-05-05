@@ -10,8 +10,9 @@ export default defineConfig({
 		starlight({
 			title: 'Forgetful Notes',
 			description: 'A personal knowledge management system built with Astro and BrainDB.',
+			favicon: '/favicon.svg',
 			logo: {
-				src: './src/assets/logo.svg',
+				src: './src/assets/lines.svg',
 			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/semanticdata/astro-garden' }],
 			components: {
