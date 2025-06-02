@@ -2,6 +2,9 @@
 
 A [Starlight](https://starlight.astro.build) project powered by [Astro](https://astro.build). Uses [BrainDB](https://github.com/stereobooster/braindb) as content layer.
 
+| ![screenshot](screenshots/screenshot.png) | ![screenshot-1](screenshots/screenshot-1.png) |
+| --- | --- |
+
 ## 🚀 Project Structure
 
 Inside of your Astro + Starlight project, you'll see the following folders and files:
