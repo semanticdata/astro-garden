@@ -9,7 +9,7 @@ A [Starlight](https://starlight.astro.build) project powered by [Astro](https://
 
 Inside of your Astro + Starlight project, you'll see the following folders and files:
 
-```
+```plaintext
 .
 ├── public/
 ├── src/
