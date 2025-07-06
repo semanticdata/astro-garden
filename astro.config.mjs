@@ -22,8 +22,10 @@ export default defineConfig({
 				'./src/styles/custom.css',
 				'@fontsource-variable/inter/standard.css',
 			],
-			lastUpdated: true,
+			lastUpdated: import.meta.env.PROD,
 		}),
-		brainDbAstro(),
+		brainDbAstro({
+			git: import.meta.env.PROD,
+		}),
 	],
 });
