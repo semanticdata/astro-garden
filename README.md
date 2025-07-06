@@ -14,9 +14,15 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 ├── public/
 ├── src/
 │   ├── assets/
+│   ├── components/
 │   ├── content/
-│   │   ├── docs/
+│   │   └── docs/
+│   ├── lib/
+│   │   └── braindb.mjs
+│   ├── styles/
+│   │   └── custom.css
 │   └── content.config.ts
+├── .gitignore
 ├── astro.config.mjs
 ├── package.json
 └── tsconfig.json
@@ -28,18 +34,38 @@ Images can be added to `src/assets/` and embedded in Markdown with a relative li
 
 Static assets, like favicons, can be placed in the `public/` directory.
 
+## 🔗 Features
+
+### Backlinks
+
+This digital garden includes automatic backlinks powered by BrainDB. When you link to other pages using wiki-style syntax `[[Page Name]]`, the linked page will automatically show a "Backlinks" section in its table of contents, displaying all pages that link to it.
+
+**How it works:**
+
+- Use `[[Page Name]]` syntax to create links between pages
+- Backlinks automatically appear in the table of contents sidebar
+- Only shows links from published pages (drafts are hidden in production)
+
+**To disable backlinks on a specific page:**
+
+```yaml
+---
+title: "Page Title"
+backlinks: false
+---
+```
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Installs dependencies                            |
 | `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm check`           | Run checks for broken links, missing images, etc. |
 | `pnpm build`           | Build your production site to `./dist/`          |
 | `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
 ## 👀 Want to learn more?
 

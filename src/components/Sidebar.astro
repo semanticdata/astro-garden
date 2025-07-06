@@ -2,7 +2,9 @@
 import Default from "@astrojs/starlight/components/Sidebar.astro";
 ---
 
-<Default {...Astro.props}><slot /></Default>
+<Default {...Astro.props}>
+  <slot />
+</Default>
 
 <script>
   function isElementVisibleInContainer(element: Element, container: Element) {
@@ -20,14 +22,8 @@ import Default from "@astrojs/starlight/components/Sidebar.astro";
   // Function to persist scroll position on page change
   function setScrollPosition() {
     const sidebar = document.querySelector("#starlight__sidebar");
-    const selectedMenuItem = document.querySelector(
-      "#starlight__sidebar a[aria-current='page']",
-    );
-    if (
-      sidebar &&
-      selectedMenuItem &&
-      !isElementVisibleInContainer(selectedMenuItem, sidebar)
-    ) {
+    const selectedMenuItem = document.querySelector("#starlight__sidebar a[aria-current='page']");
+    if (sidebar && selectedMenuItem && !isElementVisibleInContainer(selectedMenuItem, sidebar)) {
       selectedMenuItem.scrollIntoView();
     }
   }

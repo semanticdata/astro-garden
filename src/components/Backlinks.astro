@@ -1,0 +1,75 @@
+---
+import { getBrainDb } from "@braindb/astro";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entry: CollectionEntry<"docs">;
+}
+
+const { entry } = Astro.props;
+const db = getBrainDb();
+
+// Convert Astro entry ID to BrainDB path format
+// "definitions/arpeggio" -> "/Definitions/Arpeggio.md"
+const entryParts = entry.id.split("/");
+const pathParts = entryParts.map((part) => {
+  // Convert kebab-case to Title Case
+  return part
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+});
+
+const brainDbPath = `/${pathParts.join("/")}.md`;
+const doc = db.findDocumentSync(brainDbPath);
+
+const links = doc?.documentsFrom().filter((doc: any) => doc.frontmatter().draft !== true || import.meta.env.DEV) || [];
+---
+
+{
+  links.length > 0 && (
+    <div class="backlinks">
+      <h2>Backlinks</h2>
+      <ul>
+        {links.map((x: any) => (
+          <li>
+            <a href={x.url()}>{x.title()}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+<style>
+  .backlinks {
+    padding-top: 1rem;
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    a {
+      --pad-inline: 0.5rem;
+      display: block;
+      border-radius: 0.25rem;
+      padding-block: 0.25rem;
+      padding-inline: var(--pad-inline) var(--pad-inline);
+      line-height: 1.25;
+      text-decoration: none;
+      color: var(--sl-color-text);
+      transition: background-color 0.2s ease;
+    }
+
+    a:hover {
+      background-color: var(--sl-color-gray-6);
+    }
+
+    h2 {
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+      color: var(--sl-color-text);
+    }
+  }
+</style>

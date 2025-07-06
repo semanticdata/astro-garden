@@ -1,0 +1,14 @@
+---
+import Default from "@astrojs/starlight/components/TableOfContents.astro";
+import Backlinks from "./Backlinks.astro";
+---
+
+<Default {...Astro.props}>
+  <slot />
+</Default>
+
+{
+  (Astro.locals.starlightRoute.entry.data as any).backlinks !== false && (
+    <Backlinks entry={Astro.locals.starlightRoute.entry} />
+  )
+}

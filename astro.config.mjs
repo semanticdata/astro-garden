@@ -20,6 +20,7 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/semanticdata/astro-garden' }],
 			components: {
 				Sidebar: "./src/components/Sidebar.astro",
+				TableOfContents: "./src/components/TableOfContents.astro",
 			},
 			customCss: [
 				'./src/styles/custom.css',
