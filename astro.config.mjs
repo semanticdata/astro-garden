@@ -3,6 +3,9 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import { brainDbAstro } from "@braindb/astro";
 
+// Check if the 'build' command is being run.
+const isBuild = process.argv.includes('build');
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://astro-garden.vercel.app/',
@@ -22,10 +25,10 @@ export default defineConfig({
 				'./src/styles/custom.css',
 				'@fontsource-variable/inter/standard.css',
 			],
-			lastUpdated: import.meta.env.PROD,
+			lastUpdated: isBuild,
 		}),
 		brainDbAstro({
-			git: import.meta.env.PROD,
+			git: isBuild,
 		}),
 	],
 });
