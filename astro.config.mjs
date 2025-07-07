@@ -3,9 +3,6 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import { brainDbAstro } from "@braindb/astro";
 
-// Check if the 'build' command is being run.
-const isBuild = process.argv.includes('build');
-
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://astro-garden.vercel.app/',
@@ -20,16 +17,24 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/semanticdata/astro-garden' }],
 			components: {
 				Sidebar: "./src/components/Sidebar.astro",
-				TableOfContents: "./src/components/TableOfContents.astro",
 			},
 			customCss: [
 				'./src/styles/custom.css',
 				'@fontsource-variable/inter/standard.css',
 			],
-			lastUpdated: isBuild,
+			lastUpdated: true,
+			head: [
+				// Add Umami analytics script tag.
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://umami.itscattime.com/script.js',
+						'data-website-id': '71d40f80-545c-4902-91c2-9a12d10c5b12',
+						defer: true,
+					},
+				},
+			],
 		}),
-		brainDbAstro({
-			git: isBuild,
-		}),
+		brainDbAstro(),
 	],
 });
