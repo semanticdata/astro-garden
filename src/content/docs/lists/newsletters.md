@@ -1,6 +1,6 @@
 ---
 title: Newsletters
-compartir: 
+compartir: true
 category: Lists
 tags: [list]
 ---
