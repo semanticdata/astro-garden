@@ -18,12 +18,12 @@ The key elements that distinguish poetry from other kinds of literature include 
 
 Sometimes poetry is most impactful when it's listened to rather than read. Take the next example:
 
-> "Who knows why the cold wind blows
+> [!quote] The Cold Wind Blows by Kelly Roper
+>
+> Who knows why the cold wind blows
 > Or where it goes, or what it knows.
 > It only flows in passionate throes
-> Until it finally slows and settles in repose."
->
-> _The Cold Wind Blows by Kelly Roper_
+> Until it finally slows and settles in repose.
 
 Poets create _sound_ in a variety of ways, like alliteration, assonance, and consonance.
 
@@ -37,6 +37,8 @@ One of the many kinds of rhythm is _Iambic Pentameter_ which was used frequently
 
 Stressed and unstressed syllables aren't the only way you can create rhythm in your poetry. Another technique poets frequently embrace is repetition. Repetition underscores the words being repeated, which could be a phrase or a single word.
 
+> [!quote] Still I Rise by Maya Angelou
+>
 > Leaving behind nights of terror and fear
 > I rise
 > Into a daybreak that's wondrously clear
@@ -46,19 +48,17 @@ Stressed and unstressed syllables aren't the only way you can create rhythm in y
 > I rise
 > I rise
 > I rise.
->
-> _Still I Rise by Maya Angelou_
 
 ## Time to Rhyme
 
 With poetry, rhythm and rhyme go hand in hand. Both create musicality in the poem, making it pleasurable to recite and listen to. Rhymes can appear anywhere in a poem, not just at the ends of alternating lines.
 
+> [!quote] Jabberwocky by Lewis Carrol
+>
 > One, two! One, two! And through and through
 > The vorpal blade went snicker-snack!
 > He left it dead, and with its head
 > He went galumphing back.
->
-> _Jabberwocky by Lewis Carrol_
 
 ## Formatting
 

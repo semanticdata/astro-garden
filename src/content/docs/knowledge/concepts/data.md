@@ -1,6 +1,7 @@
 ---
-compartir: true
 title: Data
+description: Semantic and relational data.
+compartir: true
 ---
 ## Semantic
 

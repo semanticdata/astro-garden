@@ -34,6 +34,64 @@ export default defineConfig({
 					},
 				},
 			],
+			sidebar: [
+				{ slug: 'about' },
+				{
+					label: 'Knowledge',
+					collapsed: true,
+					items: [
+						{ label: 'Concepts', autogenerate: { directory: 'knowledge/concepts' } },
+						{ label: 'Design', autogenerate: { directory: 'knowledge/design' } },
+						{ label: 'Music', autogenerate: { directory: 'knowledge/music' } },
+						{ label: 'Science', autogenerate: { directory: 'knowledge/science' } },
+					]
+				},
+				{
+					label: 'Languages',
+					collapsed: true,
+					autogenerate: { directory: 'languages' },
+				},
+				{
+					label: 'Lists',
+					collapsed: true,
+					autogenerate: { directory: 'lists' },
+				},
+				{
+					label: 'Systems',
+					collapsed: true,
+					items: [
+						{ label: 'Habits', autogenerate: { directory: 'systems/habits' } },
+						{ label: 'Knowledge', autogenerate: { directory: 'systems/knowledge' } },
+						{ label: 'Motivation', autogenerate: { directory: 'systems/motivation' } },
+						{ label: 'Productivity', autogenerate: { directory: 'systems/productivity' } },
+					]
+				},
+				{
+					label: 'Tools',
+					collapsed: true,
+					items: [
+						{ label: 'CLI', autogenerate: { directory: 'tools/cli' } },
+						{ label: 'Development', autogenerate: { directory: 'tools/development' } },
+						{ label: 'Hardware', autogenerate: { directory: 'tools/hardware' } },
+						{ label: 'Software', autogenerate: { directory: 'tools/software' } },
+					]
+				},
+				{
+					label: 'Tutorials',
+					collapsed: true,
+					autogenerate: { directory: 'tutorials' },
+				},
+				{
+					label: 'Writing',
+					collapsed: true,
+					items: [
+						{ label: 'Craft', autogenerate: { directory: 'writing/craft' } },
+						{ label: 'Snippets', autogenerate: { directory: 'writing/snippets' } },
+					]
+				},
+				{ slug: 'meta' },
+				{ slug: 'uses' },
+			],
 		}),
 		brainDbAstro(),
 	],

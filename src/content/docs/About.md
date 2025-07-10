@@ -1,8 +1,7 @@
 ---
 title: About
-lastUpdated: 2025-01-07
+compartir: true
 ---
-
 Hello, my name is Miguel Pimentel. I am a self-taught hobby developer with too many ideas and not enough time. I was born in the Dominican Republic, and I currently live in Minnesota, US.
 
 I suffer from a chronic case of curiosity, which leads me to learn and do many interesting things like:

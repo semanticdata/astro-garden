@@ -1,14 +1,14 @@
 ---
 title: Meta
 description: How the site was made.
-lastUpdated: 2024-02-08
+updated: 2024-02-08
 compartir: true
 tags: [meta]
 ---
 
-:::note
-**Forgetful Notes** is created using [Quartz](https://github.com/jackyzha0/quartz), hosted on [GitHub](https://github.com/), deployed with [GitHub Pages](https://pages.github.com/), and facilitated by the GitHub [Publisher](https://github.com/ObsidianPublisher) plugin for [Obsidian](https://obsidian.md/). If interested, you can browse the [source](https://github.com/semanticdata/forgetful-notes) code.
-:::
+> [!summary]
+>
+> **Forgetful Notes** is created using [Quartz](https://github.com/jackyzha0/quartz), hosted on [GitHub](https://github.com/), deployed with [GitHub Pages](https://pages.github.com/), and facilitated by the GitHub [Publisher](https://github.com/ObsidianPublisher) plugin for [Obsidian](https://obsidian.md/). If interested, you can browse the [source](https://github.com/semanticdata/forgetful-notes) code.
 
 ## Background
 
@@ -33,7 +33,7 @@ The [source code](https://github.com/semanticdata/forgetful-notes) is hosted in 
 
 ## File Structure
 
-```text
+```
 root/
 ├── .github/
 │   └── workflows/

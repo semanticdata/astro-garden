@@ -3,7 +3,6 @@ title: CLI Commands and Cheat Sheet
 compartir: true
 ---
 
-
 - Linux Command Line Interface Cheat Sheet. [Main source](https://stationx.net/linux-command-line-cheat-sheet/).
 - [Source](https://stationx.net/curl-cheat-sheet/) for Curl command.
 
@@ -290,3 +289,11 @@ host domain # display DNS IP address for domain
 wget LINK # download from location LINK
 curl LINK # display HTML source of LINK
 ```
+
+## Add a Bell at the End of a Script
+
+- `; tput bel` added to end of scripts to make a beep after it has complete [source](https://news.ycombinator.com/item?id=38938050)
+
+Adding "; tput bel" at the end of a script in Unix-like systems will cause the terminal to emit an audible bell sound when the script finishes executing. This is achieved by using the tput command, which is used to query and set terminal capabilities, and in this case, bel is one of those capabilities, representing the audible bell.
+
+The semicolon (;) is a command separator in shell scripting, allowing multiple commands to be executed sequentially on a single line. So, when you add "; tput bel" at the end of a script, it ensures that the bell sound is triggered after the script completes its execution, providing an audible signal to the user that the script has finished running.

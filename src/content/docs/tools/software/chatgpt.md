@@ -2,6 +2,8 @@
 title: ChatGPT
 compartir: true
 ---
+# ChatGPT
+
 ## Customize ChatGPT
 
 ### How Would You Like ChatGPT to Respond?

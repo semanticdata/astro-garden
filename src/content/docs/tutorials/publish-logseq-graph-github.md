@@ -7,9 +7,8 @@ category: Tutorials
 tags: [tutorial]
 ---
 
-:::note
-Logseq is an open-source, Markdown-based knowledge management and note-taking tool that emphasizes bidirectional linking and block-level editing to facilitate non-linear, interconnected thought.
-:::
+> [!note]
+> Logseq is an open-source, Markdown-based knowledge management and note-taking tool that emphasizes bidirectional linking and block-level editing to facilitate non-linear, interconnected thought.
 
 Step-by-step guide on how to publish your Logseq graph to GitHub Pages. We use the [workflow](https://github.com/semanticdata/logseq-starter-graph/blob/main/.github/workflows/logseq-validate-publish.yml) provided with my [Logseq Starter](https://github.com/semanticdata/logseq-starter-graph) project.
 
@@ -79,9 +78,8 @@ It will populate the URL field with your own GitHub Pages website address. It sh
 
 ![repository url](https://raw.githubusercontent.com/semanticdata/logseq-starter-graph/main/assets/repository-url.png)
 
-:::note
-This is a good time to add a description to your project.
-:::
+> [!note]
+> This is a good time to add a description to your project.
 
 ## 8. Save Changes
 

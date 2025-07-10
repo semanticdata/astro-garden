@@ -49,9 +49,8 @@ Locate and click the **Open Folder** button next to it. You'll find it next to a
 %appdata%\Mozilla\Firefox\Profiles\your-profile-id.default
 ```
 
-:::note
-In Windows, `%appdata%` is equivalent to: `C:\Users\your-username\AppData\Roaming`.
-:::
+> [!note]
+> In Windows, `%appdata%` is equivalent to: `C:\Users\your-username\AppData\Roaming`.
 
 ### 4. Create New Folder `chrome`
 

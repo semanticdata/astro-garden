@@ -32,7 +32,7 @@ function love.conf(t)
 end
 ```
 
-**Explanation**: A vertical window is ideal for a scrolling shooter.
+- **Explanation**: A vertical window is ideal for a scrolling shooter.
 
 ## 3. Load Assets and Initialize Variables (`main.lua`)
 
@@ -78,7 +78,7 @@ function love.load()
 end
 ```
 
-**Explanation**: Ensure the assets exist in the `assets` folder.
+- **Explanation**: Ensure the assets exist in the `assets` folder.
 
 ## 4. Handle Player Input and Movement
 
@@ -110,7 +110,7 @@ elseif love.keyboard.isDown('down', 's') then
 end
 ```
 
-**Explanation**: The player cannot move off-screen.
+- **Explanation**: The player cannot move off-screen.
 
 ### 4.2 Shooting Controls
 
@@ -131,7 +131,7 @@ if love.keyboard.isDown('space', 'rctrl', 'lctrl') and canShoot then
 end
 ```
 
-**Explanation**: Shooting is limited by a timer to prevent spamming bullets.
+- **Explanation**: Shooting is limited by a timer to prevent spamming bullets.
 
 ## 5. Implement Shooting Mechanics
 
@@ -234,7 +234,7 @@ for i, enemy in ipairs(enemies) do
 end
 ```
 
-**Explanation**: When an enemy is hit by a bullet, both are removed, and the score increases. If an enemy collides with the player, the game is over.
+- **Explanation**: When an enemy is hit by a bullet, both are removed, and the score increases. If an enemy collides with the player, the game is over.
 
 ## 8. Render Graphics on the Screen
 
@@ -272,7 +272,7 @@ else
 end
 ```
 
-**Explanation**: If the player is dead, prompt to restart the game.
+- **Explanation**: If the player is dead, prompt to restart the game.
 
 ## 9. Restart the Game After Game Over
 
