@@ -4,7 +4,7 @@ compartir: true
 category: Lists
 tags: [list]
 ---
-Short list of blogs I like and follow.
+Short list of blogs I like to follow:
 
 - [512 Pixels](https://512pixels.net/)
 - [Six Colors](https://sixcolors.com/)

@@ -6,7 +6,7 @@ tags: [list]
 ---
 ## Regular Shows
 
-_These are the shows I listen to on release._
+These are the shows I listen to on release.
 
 - [Accidental Tech Podcast](https://atp.fm/) – Marco Arment, Casey Liss, John Siracusa
 - [Apple News Today](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://podcasts.apple.com/us/podcast/apple-news-today/id1473872585&ved=2ahUKEwiJvv34wPSEAxUyhIkEHXI9CekQFnoECBcQAQ&usg=AOvVaw3zJw2pbnEI4zT7dtHxQ6kl) – Shumita Basu
@@ -20,7 +20,7 @@ _These are the shows I listen to on release._
 
 ## Unscheduled Shows
 
-_These are the shows I don't listen to regularly._
+These are the shows I don't listen to regularly.
 
 - [Analog(ue)](https://www.relay.fm/analogue) – Casey Liss, Myke Hurley
 - [Clockwise](https://www.relay.fm/clockwise) – Dan Moren, Mikah Sargent, 2 guests

@@ -4,7 +4,7 @@ compartir: true
 category: Lists
 tags: [list]
 ---
-These people and projects have resonated with me. Inspiring me to do things I would otherwise not do.
+This is a list of people and projects that have resonated with me. Inspiring me to do things I would otherwise not do.
 
 ## People Who Inspire Me
 
