@@ -11,18 +11,23 @@ Git is a distributed version control system designed to handle everything from s
 ## Core Concepts
 
 ### Repository (Repo)
+
 A Git repository contains the complete history of a project, including all files, commits, and branches. Repositories can be local (on your machine) or remote (hosted on services like GitHub, GitLab, or Bitbucket).
 
 ### Working Directory, Staging Area, and Repository
+
 Git uses a three-stage workflow:
+
 - **Working Directory**: Where you edit files
 - **Staging Area (Index)**: Where you prepare changes for commit
 - **Repository**: Where committed changes are permanently stored
 
 ### Commits
+
 A commit is a snapshot of your project at a specific point in time. Each commit has a unique hash identifier and contains metadata like author, timestamp, and commit message.
 
 ### Branches
+
 Branches allow you to diverge from the main line of development and work on features independently. The default branch is typically called `main` or `master`.
 
 ## Essential Commands
@@ -224,7 +229,9 @@ git config --global alias.visual '!gitk'
 ## Best Practices
 
 ### Commit Messages
+
 Follow the conventional commit format:
+
 ```
 <type>(<scope>): <subject>
 
@@ -234,6 +241,7 @@ Follow the conventional commit format:
 ```
 
 **Examples:**
+
 ```
 feat(auth): add user login functionality
 
@@ -244,6 +252,7 @@ Closes #123
 ```
 
 ### Branching Strategy
+
 - **main/master**: Production-ready code
 - **develop**: Integration branch for features
 - **feature/**: Feature development branches
@@ -317,6 +326,7 @@ git push -u origin hotfix/critical-bug-fix
 ### Common Issues
 
 **Accidentally committed to wrong branch:**
+
 ```bash
 git reset --soft HEAD~1  # Undo commit, keep changes
 git stash                # Stash changes
@@ -325,11 +335,13 @@ git stash pop            # Apply changes to correct branch
 ```
 
 **Need to change last commit message:**
+
 ```bash
 git commit --amend -m "Corrected commit message"
 ```
 
 **Remove file from Git but keep locally:**
+
 ```bash
 git rm --cached <filename>
 git commit -m "Remove file from version control"
@@ -340,12 +352,14 @@ git commit -m "Remove file from version control"
 Git integrates seamlessly with development workflows and has many complementary tools:
 
 **Workflow Integration:**
+
 - **Code editors**: VS Code, [[NeoVim]], and other editors with Git plugins
 - **CI/CD pipelines**: GitHub Actions, GitLab CI for automated testing and deployment
 - **Project management**: Issue tracking and pull requests for collaborative development
 - **Code quality**: Pre-commit hooks with linters and formatters
 
 **Alternative Interfaces:**
+
 - **GitHub CLI**: Command-line interface for GitHub operations
 - **GitKraken**: Visual Git client with branch visualization
 - **SourceTree**: Free Git GUI for Windows and Mac

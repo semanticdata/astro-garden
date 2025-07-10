@@ -11,15 +11,19 @@ Bash (Bourne Again Shell) is a Unix shell and command language that provides a c
 ## Core Concepts
 
 ### Shell Environment
+
 Bash operates as both an interactive command interpreter and a scripting language. It reads commands from the terminal or script files, executes them, and returns results.
 
 ### Configuration Files
+
 Bash uses several configuration files that execute at different times:
+
 - **~/.bashrc**: Executed for interactive, non-login shells
 - **~/.bash_profile**: Executed for login shells
 - **~/.bash_aliases**: Custom alias definitions (sourced by ~/.bashrc)
 
 ### Variables and Environment
+
 Bash maintains environment variables that control shell behavior and store system information.
 
 ```bash
@@ -35,6 +39,7 @@ echo $PATH
 ## Essential Bash Features
 
 ### History Management
+
 Bash maintains a command history for efficient command recall and editing.
 
 ```bash
@@ -51,6 +56,7 @@ Ctrl+R    # Reverse search through history
 ```
 
 ### Command Line Editing
+
 Bash provides powerful command line editing capabilities using Emacs-style key bindings by default.
 
 ```bash
@@ -208,6 +214,7 @@ echo "Backup completed: $(date)"
 ```
 
 **Script basics:**
+
 - Start with `#!/bin/bash` (shebang)
 - Make executable with `chmod +x script.sh`
 - Use variables, conditionals, and loops for automation
@@ -271,17 +278,20 @@ PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 ## Best Practices
 
 ### Alias Organization
+
 - Keep aliases in `~/.bash_aliases` for better organization
 - Use descriptive names that won't conflict with existing commands
 - Group related aliases together with comments
 - Test aliases before adding them to avoid breaking existing workflows
 
 ### Safety Considerations
+
 - Use interactive flags (`-i`) for destructive operations like `rm`
 - Include verbose flags (`-v`) to see what commands are doing
 - Avoid aliasing critical system commands unless you're certain of the behavior
 
 ### Performance Tips
+
 - Use `HISTCONTROL=ignoreboth` to avoid cluttering history with duplicates
 - Set appropriate `HISTSIZE` and `HISTFILESIZE` values
 - Use command completion with `Tab` key for efficiency
@@ -309,6 +319,7 @@ Bash integrates seamlessly with development tools and workflows. See related not
 ### Common Issues
 
 **Aliases not working after restart:**
+
 ```bash
 # Reload bash configuration
 source ~/.bashrc
@@ -317,6 +328,7 @@ restartbash
 ```
 
 **Command not found:**
+
 ```bash
 # Check if command exists
 which command_name
@@ -327,6 +339,7 @@ echo $PATH
 ```
 
 **History not saving:**
+
 ```bash
 # Ensure history settings are correct
 echo $HISTSIZE
