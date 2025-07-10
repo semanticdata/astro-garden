@@ -1,0 +1,83 @@
+---
+title: Meta
+description: How this digital garden was made.
+updated: 2025-07-10
+compartir: true
+tags: [meta, Astro, Starlight, BrainDB]
+---
+import { FileTree } from '@astrojs/starlight/components';
+
+:::note[Summary]
+Forgetful Notes is built with [Astro](https://astro.build/) and the [Starlight](https://starlight.astro.build/) documentation theme. The content is managed in [Obsidian](https://obsidian.md/) and parsed by [BrainDB](https://github.com/semantic-data/braindb) during the build process. The site is hosted on [GitHub](https://github.com/) and deployed via [Vercel](https://vercel.com/). You can explore the [source code](https://github.com/semanticdata/astro-garden).
+:::
+
+## Background
+
+Forgetful Notes has gone through many changes. I have not been shy about moving from technology to technology as I learn new things. Coming across the world of [[Static Site Generators|Static Site Generators]] was a game changer. I have ran my notes through [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [MkDocs](https://squidfunk.github.io/mkdocs-material/), [Zola](https://www.getzola.org/), and even [Quartz](https://github.com/jackyzha0/quartz).
+
+The journey continues. This latest iteration embraces the modern web with [Astro](https://astro.build/), a framework known for its incredible performance and "islands architecture." For the look, feel, and features, I'm using [Starlight](https://starlight.astro.build/), a dedicated documentation and knowledge base theme for Astro. This combination provides both a fantastic developer experience and a fast, accessible site for readers.
+
+## Technology
+
+The core philosophy remains the same: write in plain text and use powerful tools to build the site.
+
+- **Content:** All notes are written in [[Markdown|Markdown]] within [Obsidian](https://obsidian.md/). This provides a powerful local-first writing environment with excellent linking and organization capabilities.
+
+- **The "Brain":** The magic that connects my Obsidian vault to the website is [BrainDB](https://github.com/semantic-data/braindb). During the build process, BrainDB reads my entire vault, parsing [[wikilinks]], backlinks, tags, and metadata. It creates a structured data graph that the site generator can understand.
+
+- **The Engine:** [Astro](https://astro.build/) is the static site generator that builds the final website. It takes the Markdown content and data from BrainDB and renders it into highly optimized HTML and CSS. The [Starlight](https://starlight.astro.build/) theme provides the site's structure, navigation, search, and overall design system.
+
+## Features
+
+This new stack provides a fantastic set of features, many of them out-of-the-box with Starlight and Astro.
+
+- **Fast, Full-Text Search** (powered by Pagefind)
+- **Bidirectional Backlinks** (thanks to BrainDB)
+- **Dark & Light Mode**
+- **Admonition-style Callouts**
+- **Markdown & Wikilink Support**
+- **Support for UI Components** (React, Svelte, Vue, etc.) within Markdown
+- **Table of Contents** on every page
+- **Latex Support** for mathematical notation
+
+## Project Structure
+
+The project is now a standard Astro project, with a directory for the Obsidian notes that BrainDB processes.
+
+<FileTree>
+
+- public/
+  - favicon.svg
+- src/
+  - assets/
+    - lines.svg
+    - lines-light.svg
+    - space-racoon.webp
+  - components/
+    - Backlinks.astro
+    - Sidebar.astro
+    - TableOfContents.astro
+  - content/
+    - docs/
+      - knowledge/
+      - languages/
+      - lists/
+      - systems/
+      - tools/
+      - tutorials/
+      - writing/
+      - about.md
+      - index.mdx
+      - meta.mdx
+      - uses.md
+  - lib/
+    - brainddb.mjs
+  - styles/
+    - custom.css
+  - content.config.ts
+- .gitignore
+- astro.config.mjs
+- package.json
+- tsconfig.json
+
+</FileTree>

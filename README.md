@@ -1,6 +1,6 @@
 # Astro Garden
 
-A [Starlight](https://starlight.astro.build) project powered by [Astro](https://astro.build). Uses [BrainDB](https://github.com/stereobooster/braindb) as content layer.
+A [Starlight](https://starlight.astro.build) project powered by [Astro](https://astro.build) and uses [BrainDB](https://github.com/stereobooster/braindb) as content layer.
 
 | ![screenshot](screenshots/screenshot.png) | ![screenshot-1](screenshots/screenshot-1.png) |
 | --- | --- |

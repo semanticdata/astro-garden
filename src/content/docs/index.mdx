@@ -1,37 +1,40 @@
 ---
-title: Welcome to the Garden
-description: Get started building your docs site with Forgetful Notes.
+title: Welcome to My Garden
+description: A living collection of my notes, ideas, and curiosities, planted and tended in the open.
 template: splash
 prev: false
 next: false
 lastUpdated: false
 pagefind: false
 hero:
-  tagline: It is a beautiful day in the garden.
+  tagline: A place where ideas are planted, tended, and allowed to grow. Come wander through my thoughts.
   image:
+    alt: A racoon floating in space
     file: ../../assets/space-racoon.webp
   actions:
-    - text: Enter
+    - text: Start Exploring
       link: /about/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: What is a Digital Garden?
+      link: /knowledge/concepts/digital-garden/
+      icon: information
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## How This Garden Grows
+
+These are the principles that guide this space. Think of them as the gardener's notes on the shed wall.
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+  <Card title="Living Notes" icon="pencil">
+    Unlike a blog post, notes here are never "finished." They are living documents that I prune, graft, and tend to over time as my understanding deepens.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Connected Thoughts" icon="seti:pipeline">
+		Ideas rarely stand alone. Notes are woven together through a network of links. Follow your curiosity and discover unexpected connections.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="All Stages of Growth" icon="seti:favicon">
+		You'll find everything from rough **seedlings** to well-developed **evergreens**. This garden values the entire process, not just the final harvest.
 	</Card>
 </CardGrid>

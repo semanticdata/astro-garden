@@ -12,7 +12,8 @@ export default defineConfig({
 			description: 'A personal knowledge management system built with Astro and BrainDB.',
 			favicon: '/favicon.svg',
 			logo: {
-				src: './src/assets/lines.svg',
+				light: './src/assets/lines.svg',
+				dark: './src/assets/lines-light.svg',
 			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/semanticdata/astro-garden' }],
 			components: {

@@ -6,11 +6,16 @@
     --sl-color-bg-sidebar: var(--sl-color-bg);
     --sl-color-hairline-shade: var(--sl-color-gray-6);
 
-    --sl-hue-orange: 41; /* Default: 41 */
-    --sl-hue-green: 101; /* Default: 101 */
-    --sl-hue-blue: 275; /* Default: 234 */
-    --sl-hue-purple: 281; /* Default: 281 */
-    --sl-hue-red: 339; /* Default: 339 */
+    --sl-hue-orange: 41;
+    /* Default: 41 */
+    --sl-hue-green: 101;
+    /* Default: 101 */
+    --sl-hue-blue: 275;
+    /* Default: 234 */
+    --sl-hue-purple: 281;
+    /* Default: 281 */
+    --sl-hue-red: 339;
+    /* Default: 339 */
 }
 
 /* Dark mode colors. */
