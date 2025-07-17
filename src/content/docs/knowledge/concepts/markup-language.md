@@ -1,12 +1,51 @@
 ---
 title: Markup Language
+description: "A system for annotating text to define structure, formatting, and presentation of web documents using standardized tags and codes."
 compartir: true
+tags: [web-development, concepts]
 ---
-A markup language is a system for annotating text to define the structure, formatting, and presentation of documents on the internet. It [[Uses]] tags or codes to indicate the purpose or function of different elements within the document, such as headings, paragraphs, links, and images. Markup languages, like HTML (Hypertext Markup Language), provide a standardized way to structure and display content across various platforms and web browsers.
 
-Examples of markup languages include:
+A **markup language** is a system for annotating text to define the structure, formatting, and presentation of documents on the web. It uses tags or codes to indicate the purpose or function of different elements within the document, such as headings, paragraphs, links, and images.
 
-1. HTML (Hypertext Markup Language): The most widely used markup language for creating web pages and applications. It specifies the structure and presentation of content on the internet.
-2. XML (eXtensible Markup Language): A flexible markup language that allows users to define their own tags and structure data. It is commonly used for storing and transporting data between different systems.
-3. Markdown: Although not a traditional markup language, Markdown is a lightweight markup language that is widely used for formatting and styling plain text, particularly for creating content for the web.
-4. LaTeX: A markup language commonly used in academia and scientific publishing for typesetting documents. It provides extensive control over the layout and formatting of mathematical equations and complex technical documents.
+## Core Principles
+
+Markup languages separate **content from presentation** by using standardized annotations. This separation allows the same content to be displayed differently across various platforms, browsers, and devices while maintaining semantic meaning.
+
+**Key characteristics:**
+- **Declarative syntax** - Describes what something is, not how it should look
+- **Nested structure** - Elements can contain other elements
+- **Attribute system** - Additional information can be attached to elements
+- **Platform independence** - Works across different systems and browsers
+
+## Common Web Markup Languages
+
+**[[html|HTML]]** (Hypertext Markup Language) - The foundational markup language for web pages, defining structure and semantic meaning of web content.
+
+**[[markdown|Markdown]]** - A lightweight markup language designed for easy writing and reading, commonly used in [[digital-garden|Digital Gardens]] and documentation.
+
+## Why Markup Languages Matter
+
+Markup languages enable the **separation of concerns** in web development:
+- **Content creators** focus on meaning and structure
+- **Designers** handle visual presentation through CSS
+- **Developers** add interactivity through JavaScript
+
+This separation makes content more **maintainable**, **accessible**, and **adaptable** across different devices and contexts.
+
+## Semantic vs Presentational
+
+Modern markup emphasizes **semantic meaning** over visual appearance:
+
+```html
+<!-- Semantic: Describes what it is -->
+<h1>Main Article Title</h1>
+<p>Article introduction paragraph...</p>
+
+<!-- Presentational: Describes how it looks -->
+<div class="big-bold-text">Main Article Title</div>
+<div class="normal-text">Article introduction paragraph...</div>
+```
+
+Semantic markup supports accessibility, SEO, and maintainability by clearly indicating the **purpose** of each content element rather than just its appearance.
+
+Understanding markup languages provides the foundation for web content creation, from simple [[atomic-notes|notes]] to complex web applications.

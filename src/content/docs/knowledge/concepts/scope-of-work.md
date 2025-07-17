@@ -1,17 +1,37 @@
 ---
 title: Scope of Work
+description: "A document that defines what you'll deliver, when you'll deliver it, and how everyone will know it's done."
 compartir: true
+tags: [project-management, documentation, planning]
 ---
-A scope of work or SOW, is a descriptive document or working agreement that contains all information regarding the size of a project, the goals a team should accomplish by the end of the project and steps required to complete the project.
 
-You might create an SOW when multiple parties are working together on the project and there are certain requirements to meet. This document usually includes of an introduction, objective overview, an outline of the expected work and tasks, schedule for deliverables, adoption plan and conclusion or sign off.
+A **scope of work (SOW)** is a document that gets everyone on the same page about what you're actually building. Think of it as the answer to "wait, what exactly are we doing here?" before things get messy.
 
-Usually, a scope of work has these standard components:
+## What It Actually Does
 
-- Project goals: This includes all goals intended for the team to reach as the project progresses, as well as when it completes.
-- Timeline: This includes the exact timeframe for the project's beginning and end, including when specific tasks should start and complete.
-- Expected results: This includes specific outcomes intended to take place by the completion of the project.
-- Deliverables: This includes the exact product or products the project should deliver by its completion.
-- Conditions: This includes any stipulations the team should abide by or work under or requirements to meet.
-- Financial information: This includes accounting data, such as how much the project may cost to complete, how much each team member is going to earn and how and when they're going to be paid.
-- Management: This includes information regarding administrative details, such as who's responsible for approving financial decisions or who can agree to specific terms.
+An SOW prevents the classic project disasters by answering three basic questions upfront:
+- **What** are we delivering (specific stuff, not vague promises)
+- **When** will it be done (real dates, not "soon")
+- **How** will we know it's finished (clear success criteria)
+
+## When You Need One
+
+Write a scope of work when you're working with other people and need to avoid the inevitable "but I thought you were handling that" conversations. This happens most often with:
+- Client projects or freelance work
+- Cross-team collaborations  
+- Any project involving external vendors
+- Work that involves money changing hands
+
+## What Goes In It
+
+A good SOW covers the essentials without getting buried in bureaucracy:
+- **Project goals** - what success looks like
+- **Timeline** - when things start, major milestones, and when you're done
+- **Deliverables** - the actual stuff you'll hand over
+- **Conditions** - any weird requirements or constraints
+- **Money details** - costs, payment schedule, who approves what
+- **Management structure** - who makes decisions and signs off
+
+## Why It Matters
+
+The SOW is your defense against scope creep and the "one more small thing" requests that derail projects. Like [[scry-your-tasks|task prioritization]], it forces you to be explicit about what's actually important versus what just feels urgent. When someone inevitably wants to add features or change direction, you have a document that says "here's what we agreed to—anything else is a new conversation."
