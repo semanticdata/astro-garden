@@ -11,9 +11,9 @@ The "every day" part is important, because [[consistency|Consistency]] is key to
 
 ## Getting Started
 
-Start with 5-10 minutes daily. As noted in [[encouragements|Encouragements]], "tiny habits deliver big results in a year" and "have no 'Zero-Days.'"
+Start with 5-10 minutes daily. As noted in [[motivation-strategies|Encouragements]], "tiny habits deliver big results in a year" and "have no 'Zero-Days.'"
 
-Follow the morning movement advice from [[encouragements|Encouragements]]: "get some movement in before starting work. Go for a walk, a short bike ride, something outside."
+Follow the morning movement advice from [[motivation-strategies|Encouragements]]: "get some movement in before starting work. Go for a walk, a short bike ride, something outside."
 
 ## Movement Options
 

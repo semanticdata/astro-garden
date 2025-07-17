@@ -26,5 +26,5 @@ You don't need to be perfect. You need to be consistent. Progress compounds, and
 ## Related Concepts
 
 - [[move-your-body|Move Your Body]]: Daily movement as an example of beneficial consistency
-- [[encouragements|Encouragements]]: Practical tips that support consistent behavior
+- [[motivation-strategies|Encouragements]]: Practical tips that support consistent behavior
 - [[consistency-killers|Consistency Killers]]: Common patterns that destroy consistent habits
