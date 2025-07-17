@@ -2,7 +2,6 @@
 title: Motivation
 compartir: true
 ---
-# Motivation
 
 Motivation is an internal state that propels individuals to engage in goal-directed behavior.
 

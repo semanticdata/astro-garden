@@ -300,9 +300,9 @@ PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 Bash integrates seamlessly with development tools and workflows. See related notes for deeper coverage of specific tools:
 
-**Version Control**: [[Git]] commands and aliases for streamlined version control operations
+**Version Control**: [[git|Git]] commands and aliases for streamlined version control operations
 
-**Command Line Tools**: Reference [[CLI Commands and Cheat Sheet]] for comprehensive command documentation
+**Command Line Tools**: Reference [[cli-commands-cheat-sheet|CLI Commands and Cheat Sheet]] for comprehensive command documentation
 
 **Container Management**: Docker and docker-compose aliases for rapid container orchestration
 
@@ -312,7 +312,7 @@ Bash integrates seamlessly with development tools and workflows. See related not
 
 **Network Diagnostics**: Quick access to network information and connectivity testing
 
-**Text Processing**: Integration with tools like [[Emmet Cheat Sheet]] for efficient text expansion workflows
+**Text Processing**: Integration with tools like [[emmet-cheat-sheet|Emmet Cheat Sheet]] for efficient text expansion workflows
 
 ## Troubleshooting
 
